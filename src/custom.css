@@ -1,0 +1,104 @@
+/* style website for dark theme */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+}
+
+/* style the card component */
+.card {
+  margin-top: 20px;
+  background-color: #121212;
+  border: none;
+}
+
+.card-body {
+  color: #f0f0f0;
+}
+
+.card-title {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.card-subtitle {
+  color: #b0b0b0;
+}
+
+.card-text {
+  font-size: x-large;
+}
+
+/* container for doors */
+.d-flex {
+  gap: 30px;
+}
+
+/* door style */
+.door {
+  width: 200px;
+  height: 350px;
+  background-color: lightblue;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* selected door style */
+.door.selected {
+  background-color: orange;
+}
+
+/* revealed door style */
+.door.revealed {
+  background-color: red;
+  /* do not let revealed door be selected */
+  pointer-events: none;
+}
+
+/* prize result style */
+.prize {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+}
+
+/* style key squares */
+.square {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* remove bullet points from key list */
+ul li {
+  list-style-type: none;
+}
+
+/* remove default list item padding */
+ul {
+  padding-left: 0;
+}
+
+/* format and style door colour key */
+.key-box {
+  border: 2px solid #f0f0f0;
+  margin: 20px;
+  padding: 20px;
+  font-size: smaller;
+}
+
+.key-box hr {
+  margin-bottom: 0;
+  margin-top: 0;
+}
