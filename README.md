@@ -12,6 +12,7 @@ Monty Hall is a web application built with React that simulates the classic Mont
 6. [Code Structure](#code-structure)
 7. [Acknowledgements](#acknowledgements)
 8. [Contributing](#contributing)
+9. [Credits](#credits)
 
 ## Features
 
@@ -111,4 +112,7 @@ To get started with the Monty Hall game locally, follow these steps:
 
 Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
 
+## Credits
+
+Project created by: [Jediah Jireh Naicker](https://github.com/jediahjireh)
 Happy Coding!
